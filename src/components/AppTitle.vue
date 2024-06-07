@@ -1,7 +1,7 @@
 <template>
     <!-- Qui va il markup HTML del tuo componente -->
     <div>
-        <h1>La mia prima volta con Vite</h1>
+        <h1>La mia prima volta con Vite!</h1>
         <!-- Contenuto del componente -->
     </div>
 </template>
@@ -20,19 +20,12 @@ const state = ref(0);
 
 <style scoped>
 
-body{
-  background-color: black;
-}
-
 h1{
-    background-color: lightblue;
-    text-shadow: black;
+    background-color: black;
+    text-shadow: 4px 4px 5px red;
     font-size: 2rem;
     padding: 1rem;
+    color: yellowgreen;
 }
   /* Qui va lo stile CSS del tuo componente */
-div {
-    /* Esempio di stile */
-    color: #42b983;
-}
 </style>

@@ -10,6 +10,7 @@ const state = ref(0);
 </script>
 
 <style scoped>
+
 img{
     width: 100%;
     margin: 0 auto;
