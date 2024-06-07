@@ -20,10 +20,15 @@ const state = ref(0);
 
 <style scoped>
 
+body{
+  background-color: black;
+}
+
 h1{
     background-color: lightblue;
     text-shadow: black;
     font-size: 2rem;
+    padding: 1rem;
 }
   /* Qui va lo stile CSS del tuo componente */
 div {
