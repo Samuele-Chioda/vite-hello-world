@@ -6,7 +6,7 @@
 
 <script setup>
 import { ref } from 'vue'; 
-onst state = ref(0);
+const state = ref(0);
 </script>
 
 <style scoped>
