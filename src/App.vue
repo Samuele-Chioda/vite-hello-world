@@ -1,6 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import App.title from './components/Aoo.title.vue'
+import App.title from './components/App.title.vue'
+import AppHero.vue from './components/AppHero.vue'
+
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import App.title from './components/Aoo.title.vue'
   </div>
   <HelloWorld msg="Vite + Vue" />
   <App.title />
+  <AppHero />
 </template>
 
 <style scoped>
